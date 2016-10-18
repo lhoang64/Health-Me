@@ -16,6 +16,18 @@
 		BD71B6EF1CDAC8CF003F8357 /* CloseMenuAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6EE1CDAC8CF003F8357 /* CloseMenuAnimation.swift */; };
 		BD71B6F11CDAD21A003F8357 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6F01CDAD21A003F8357 /* WebViewController.swift */; };
 		BD71B6F71CDAEB1D003F8357 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6F61CDAEB1D003F8357 /* CustomTableCell.swift */; };
+		BD780CBC1DB6E9D40022B9C2 /* Bruises.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CBB1DB6E9D40022B9C2 /* Bruises.txt */; };
+		BD780CC81DB6EA810022B9C2 /* Burns.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CBD1DB6EA810022B9C2 /* Burns.txt */; };
+		BD780CC91DB6EA810022B9C2 /* Cough.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CBE1DB6EA810022B9C2 /* Cough.txt */; };
+		BD780CCA1DB6EA810022B9C2 /* Fever.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CBF1DB6EA810022B9C2 /* Fever.txt */; };
+		BD780CCB1DB6EA810022B9C2 /* Hangover.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC01DB6EA810022B9C2 /* Hangover.txt */; };
+		BD780CCC1DB6EA810022B9C2 /* Headache.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC11DB6EA810022B9C2 /* Headache.txt */; };
+		BD780CCD1DB6EA810022B9C2 /* Heartburn.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC21DB6EA810022B9C2 /* Heartburn.txt */; };
+		BD780CCE1DB6EA810022B9C2 /* Hiccups.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC31DB6EA810022B9C2 /* Hiccups.txt */; };
+		BD780CCF1DB6EA810022B9C2 /* Indigestion.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC41DB6EA810022B9C2 /* Indigestion.txt */; };
+		BD780CD01DB6EA810022B9C2 /* Insomnia.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC51DB6EA810022B9C2 /* Insomnia.txt */; };
+		BD780CD11DB6EA810022B9C2 /* Nausea.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC61DB6EA810022B9C2 /* Nausea.txt */; };
+		BD780CD21DB6EA810022B9C2 /* Stress.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD780CC71DB6EA810022B9C2 /* Stress.txt */; };
 		BD85EDA61CF77CA30031AFFB /* AllSavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD85EDA51CF77CA30031AFFB /* AllSavesViewController.swift */; };
 		BD85EDA81CF793170031AFFB /* AllSavesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD85EDA71CF793170031AFFB /* AllSavesCell.swift */; };
 		BDB713511CEE4AA500E58219 /* SavedRemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB713501CEE4AA500E58219 /* SavedRemViewController.swift */; };
@@ -39,6 +51,18 @@
 		BD71B6EE1CDAC8CF003F8357 /* CloseMenuAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseMenuAnimation.swift; sourceTree = "<group>"; };
 		BD71B6F01CDAD21A003F8357 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		BD71B6F61CDAEB1D003F8357 /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		BD780CBB1DB6E9D40022B9C2 /* Bruises.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Bruises.txt; path = "Health Me/Resources/Bruises.txt"; sourceTree = "<group>"; };
+		BD780CBD1DB6EA810022B9C2 /* Burns.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Burns.txt; path = "Health Me/Resources/Burns.txt"; sourceTree = "<group>"; };
+		BD780CBE1DB6EA810022B9C2 /* Cough.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cough.txt; path = "Health Me/Resources/Cough.txt"; sourceTree = "<group>"; };
+		BD780CBF1DB6EA810022B9C2 /* Fever.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fever.txt; path = "Health Me/Resources/Fever.txt"; sourceTree = "<group>"; };
+		BD780CC01DB6EA810022B9C2 /* Hangover.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Hangover.txt; path = "Health Me/Resources/Hangover.txt"; sourceTree = "<group>"; };
+		BD780CC11DB6EA810022B9C2 /* Headache.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Headache.txt; path = "Health Me/Resources/Headache.txt"; sourceTree = "<group>"; };
+		BD780CC21DB6EA810022B9C2 /* Heartburn.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Heartburn.txt; path = "Health Me/Resources/Heartburn.txt"; sourceTree = "<group>"; };
+		BD780CC31DB6EA810022B9C2 /* Hiccups.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Hiccups.txt; path = "Health Me/Resources/Hiccups.txt"; sourceTree = "<group>"; };
+		BD780CC41DB6EA810022B9C2 /* Indigestion.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Indigestion.txt; path = "Health Me/Resources/Indigestion.txt"; sourceTree = "<group>"; };
+		BD780CC51DB6EA810022B9C2 /* Insomnia.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Insomnia.txt; path = "Health Me/Resources/Insomnia.txt"; sourceTree = "<group>"; };
+		BD780CC61DB6EA810022B9C2 /* Nausea.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Nausea.txt; path = "Health Me/Resources/Nausea.txt"; sourceTree = "<group>"; };
+		BD780CC71DB6EA810022B9C2 /* Stress.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Stress.txt; path = "Health Me/Resources/Stress.txt"; sourceTree = "<group>"; };
 		BD85EDA51CF77CA30031AFFB /* AllSavesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSavesViewController.swift; sourceTree = "<group>"; };
 		BD85EDA71CF793170031AFFB /* AllSavesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSavesCell.swift; sourceTree = "<group>"; };
 		BDB713501CEE4AA500E58219 /* SavedRemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRemViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +92,18 @@
 		BDCADCF41CDAC64000488CB8 = {
 			isa = PBXGroup;
 			children = (
+				BD780CBD1DB6EA810022B9C2 /* Burns.txt */,
+				BD780CBE1DB6EA810022B9C2 /* Cough.txt */,
+				BD780CBF1DB6EA810022B9C2 /* Fever.txt */,
+				BD780CC01DB6EA810022B9C2 /* Hangover.txt */,
+				BD780CC11DB6EA810022B9C2 /* Headache.txt */,
+				BD780CC21DB6EA810022B9C2 /* Heartburn.txt */,
+				BD780CC31DB6EA810022B9C2 /* Hiccups.txt */,
+				BD780CC41DB6EA810022B9C2 /* Indigestion.txt */,
+				BD780CC51DB6EA810022B9C2 /* Insomnia.txt */,
+				BD780CC61DB6EA810022B9C2 /* Nausea.txt */,
+				BD780CC71DB6EA810022B9C2 /* Stress.txt */,
+				BD780CBB1DB6E9D40022B9C2 /* Bruises.txt */,
 				BDCADCFF1CDAC64000488CB8 /* Health Me */,
 				BDCADCFE1CDAC64000488CB8 /* Products */,
 			);
@@ -168,6 +204,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD780CC81DB6EA810022B9C2 /* Burns.txt in Resources */,
+				BD780CC91DB6EA810022B9C2 /* Cough.txt in Resources */,
+				BD780CCA1DB6EA810022B9C2 /* Fever.txt in Resources */,
+				BD780CCB1DB6EA810022B9C2 /* Hangover.txt in Resources */,
+				BD780CCC1DB6EA810022B9C2 /* Headache.txt in Resources */,
+				BD780CCD1DB6EA810022B9C2 /* Heartburn.txt in Resources */,
+				BD780CCE1DB6EA810022B9C2 /* Hiccups.txt in Resources */,
+				BD780CCF1DB6EA810022B9C2 /* Indigestion.txt in Resources */,
+				BD780CD01DB6EA810022B9C2 /* Insomnia.txt in Resources */,
+				BD780CD11DB6EA810022B9C2 /* Nausea.txt in Resources */,
+				BD780CD21DB6EA810022B9C2 /* Stress.txt in Resources */,
+				BD780CBC1DB6E9D40022B9C2 /* Bruises.txt in Resources */,
 				BDCADD0E1CDAC64000488CB8 /* LaunchScreen.storyboard in Resources */,
 				BDCADD0B1CDAC64000488CB8 /* Assets.xcassets in Resources */,
 				BDCADD061CDAC64000488CB8 /* Main.storyboard in Resources */,

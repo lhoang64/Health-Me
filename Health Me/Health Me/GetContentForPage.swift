@@ -15,9 +15,10 @@ class GetContentForPage {
     
     func getText(symptom: String) -> [String]{
         //very specific path needs to be changed
-        let path = "/Users/Linh/Documents/IOS/Health Me/Health Me/" + symptom + ".txt"
+        //let path = "/Users/Linh/Documents/IOS/Health Me/Health Me/" + symptom + ".txt"
+        let path = NSBundle.mainBundle().pathForResource(symptom, ofType: "txt")
         do{
-            let text = try NSString(contentsOfFile: path, encoding: NSASCIIStringEncoding) as String
+            let text = try NSString(contentsOfFile: path!, encoding: NSASCIIStringEncoding) as String
             remedies = text.componentsSeparatedByString("\n")
             return remedies
         } catch{
