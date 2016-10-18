@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BE093994D8F527E4BE4B72C5608F2FD7F8DE57DB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BE093994D8F527E4BE4B72C5608F2FD7F8DE57DB" : 0,
+    "3A6CC6D2A58636C00ABBDF09AB3C6DCE5DEE1F14" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DC19C5DB-634E-4C6B-B5F7-5DEE0DA4FBE5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BE093994D8F527E4BE4B72C5608F2FD7F8DE57DB" : "Health-Me\/",
+    "3A6CC6D2A58636C00ABBDF09AB3C6DCE5DEE1F14" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Health Me",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Health Me\/Health Me.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BenningtonCS\/lhoang64.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A6CC6D2A58636C00ABBDF09AB3C6DCE5DEE1F14"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lhoang64\/Health-Me.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE093994D8F527E4BE4B72C5608F2FD7F8DE57DB"
+    }
+  ]
+}

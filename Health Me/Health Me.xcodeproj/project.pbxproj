@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4AFD7D1CE9001D00C5BEB5 /* CustomCellWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4AFD7C1CE9001D00C5BEB5 /* CustomCellWithButton.swift */; };
+		BD4C93481CE82C970059F517 /* RemedyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C93471CE82C970059F517 /* RemedyViewController.swift */; };
+		BD6012671CEBF0EF008954D7 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6012661CEBF0EF008954D7 /* CollectionViewController.swift */; };
+		BD6012691CEBF12E008954D7 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6012681CEBF12E008954D7 /* CustomCollectionCell.swift */; };
+		BD71B6EB1CDAC78A003F8357 /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6EA1CDAC78A003F8357 /* SideViewController.swift */; };
+		BD71B6ED1CDAC8BA003F8357 /* OpenMenuAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6EC1CDAC8BA003F8357 /* OpenMenuAnimation.swift */; };
+		BD71B6EF1CDAC8CF003F8357 /* CloseMenuAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6EE1CDAC8CF003F8357 /* CloseMenuAnimation.swift */; };
+		BD71B6F11CDAD21A003F8357 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6F01CDAD21A003F8357 /* WebViewController.swift */; };
+		BD71B6F71CDAEB1D003F8357 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71B6F61CDAEB1D003F8357 /* CustomTableCell.swift */; };
+		BD85EDA61CF77CA30031AFFB /* AllSavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD85EDA51CF77CA30031AFFB /* AllSavesViewController.swift */; };
+		BD85EDA81CF793170031AFFB /* AllSavesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD85EDA71CF793170031AFFB /* AllSavesCell.swift */; };
+		BDB713511CEE4AA500E58219 /* SavedRemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB713501CEE4AA500E58219 /* SavedRemViewController.swift */; };
+		BDC84FC81CE524E000105321 /* GetContentForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC84FC71CE524E000105321 /* GetContentForPage.swift */; };
+		BDCADD011CDAC64000488CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCADD001CDAC64000488CB8 /* AppDelegate.swift */; };
+		BDCADD061CDAC64000488CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCADD041CDAC64000488CB8 /* Main.storyboard */; };
+		BDCADD091CDAC64000488CB8 /* Health_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDCADD071CDAC64000488CB8 /* Health_Me.xcdatamodeld */; };
+		BDCADD0B1CDAC64000488CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCADD0A1CDAC64000488CB8 /* Assets.xcassets */; };
+		BDCADD0E1CDAC64000488CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCADD0C1CDAC64000488CB8 /* LaunchScreen.storyboard */; };
+		BDF1258F1CF3B0A80083AFE4 /* SavedRem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1258D1CF3B0A80083AFE4 /* SavedRem.swift */; };
+		BDF125901CF3B0A80083AFE4 /* SavedRem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1258E1CF3B0A80083AFE4 /* SavedRem+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD4AFD7C1CE9001D00C5BEB5 /* CustomCellWithButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellWithButton.swift; sourceTree = "<group>"; };
+		BD4C93471CE82C970059F517 /* RemedyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemedyViewController.swift; sourceTree = "<group>"; };
+		BD6012661CEBF0EF008954D7 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		BD6012681CEBF12E008954D7 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		BD71B6EA1CDAC78A003F8357 /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
+		BD71B6EC1CDAC8BA003F8357 /* OpenMenuAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenMenuAnimation.swift; sourceTree = "<group>"; };
+		BD71B6EE1CDAC8CF003F8357 /* CloseMenuAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseMenuAnimation.swift; sourceTree = "<group>"; };
+		BD71B6F01CDAD21A003F8357 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BD71B6F61CDAEB1D003F8357 /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		BD85EDA51CF77CA30031AFFB /* AllSavesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSavesViewController.swift; sourceTree = "<group>"; };
+		BD85EDA71CF793170031AFFB /* AllSavesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSavesCell.swift; sourceTree = "<group>"; };
+		BDB713501CEE4AA500E58219 /* SavedRemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRemViewController.swift; sourceTree = "<group>"; };
+		BDC84FC71CE524E000105321 /* GetContentForPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetContentForPage.swift; sourceTree = "<group>"; };
+		BDCADCFD1CDAC64000488CB8 /* Health Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCADD001CDAC64000488CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDCADD051CDAC64000488CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDCADD081CDAC64000488CB8 /* Health_Me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Health_Me.xcdatamodel; sourceTree = "<group>"; };
+		BDCADD0A1CDAC64000488CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDCADD0D1CDAC64000488CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDCADD0F1CDAC64000488CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF1258D1CF3B0A80083AFE4 /* SavedRem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRem.swift; sourceTree = "<group>"; };
+		BDF1258E1CF3B0A80083AFE4 /* SavedRem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SavedRem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDCADCFA1CDAC64000488CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDCADCF41CDAC64000488CB8 = {
+			isa = PBXGroup;
+			children = (
+				BDCADCFF1CDAC64000488CB8 /* Health Me */,
+				BDCADCFE1CDAC64000488CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDCADCFE1CDAC64000488CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCADCFD1CDAC64000488CB8 /* Health Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDCADCFF1CDAC64000488CB8 /* Health Me */ = {
+			isa = PBXGroup;
+			children = (
+				BDCADD001CDAC64000488CB8 /* AppDelegate.swift */,
+				BDCADD041CDAC64000488CB8 /* Main.storyboard */,
+				BDCADD0A1CDAC64000488CB8 /* Assets.xcassets */,
+				BDCADD0C1CDAC64000488CB8 /* LaunchScreen.storyboard */,
+				BDCADD0F1CDAC64000488CB8 /* Info.plist */,
+				BD6012661CEBF0EF008954D7 /* CollectionViewController.swift */,
+				BD71B6EA1CDAC78A003F8357 /* SideViewController.swift */,
+				BD71B6EC1CDAC8BA003F8357 /* OpenMenuAnimation.swift */,
+				BD71B6EE1CDAC8CF003F8357 /* CloseMenuAnimation.swift */,
+				BDC84FC71CE524E000105321 /* GetContentForPage.swift */,
+				BD4C93471CE82C970059F517 /* RemedyViewController.swift */,
+				BD85EDA51CF77CA30031AFFB /* AllSavesViewController.swift */,
+				BD85EDA71CF793170031AFFB /* AllSavesCell.swift */,
+				BD71B6F61CDAEB1D003F8357 /* CustomTableCell.swift */,
+				BD4AFD7C1CE9001D00C5BEB5 /* CustomCellWithButton.swift */,
+				BD6012681CEBF12E008954D7 /* CustomCollectionCell.swift */,
+				BD71B6F01CDAD21A003F8357 /* WebViewController.swift */,
+				BDCADD071CDAC64000488CB8 /* Health_Me.xcdatamodeld */,
+				BDF1258D1CF3B0A80083AFE4 /* SavedRem.swift */,
+				BDF1258E1CF3B0A80083AFE4 /* SavedRem+CoreDataProperties.swift */,
+				BDB713501CEE4AA500E58219 /* SavedRemViewController.swift */,
+			);
+			path = "Health Me";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDCADCFC1CDAC64000488CB8 /* Health Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCADD121CDAC64000488CB8 /* Build configuration list for PBXNativeTarget "Health Me" */;
+			buildPhases = (
+				BDCADCF91CDAC64000488CB8 /* Sources */,
+				BDCADCFA1CDAC64000488CB8 /* Frameworks */,
+				BDCADCFB1CDAC64000488CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health Me";
+			productName = "Health Me";
+			productReference = BDCADCFD1CDAC64000488CB8 /* Health Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDCADCF51CDAC64000488CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Linh Hoang";
+				TargetAttributes = {
+					BDCADCFC1CDAC64000488CB8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = X74S4AVCW6;
+					};
+				};
+			};
+			buildConfigurationList = BDCADCF81CDAC64000488CB8 /* Build configuration list for PBXProject "Health Me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDCADCF41CDAC64000488CB8;
+			productRefGroup = BDCADCFE1CDAC64000488CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDCADCFC1CDAC64000488CB8 /* Health Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDCADCFB1CDAC64000488CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCADD0E1CDAC64000488CB8 /* LaunchScreen.storyboard in Resources */,
+				BDCADD0B1CDAC64000488CB8 /* Assets.xcassets in Resources */,
+				BDCADD061CDAC64000488CB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDCADCF91CDAC64000488CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6012671CEBF0EF008954D7 /* CollectionViewController.swift in Sources */,
+				BDF1258F1CF3B0A80083AFE4 /* SavedRem.swift in Sources */,
+				BD4AFD7D1CE9001D00C5BEB5 /* CustomCellWithButton.swift in Sources */,
+				BDC84FC81CE524E000105321 /* GetContentForPage.swift in Sources */,
+				BD85EDA81CF793170031AFFB /* AllSavesCell.swift in Sources */,
+				BD71B6ED1CDAC8BA003F8357 /* OpenMenuAnimation.swift in Sources */,
+				BD85EDA61CF77CA30031AFFB /* AllSavesViewController.swift in Sources */,
+				BD4C93481CE82C970059F517 /* RemedyViewController.swift in Sources */,
+				BDF125901CF3B0A80083AFE4 /* SavedRem+CoreDataProperties.swift in Sources */,
+				BD6012691CEBF12E008954D7 /* CustomCollectionCell.swift in Sources */,
+				BD71B6EF1CDAC8CF003F8357 /* CloseMenuAnimation.swift in Sources */,
+				BD71B6F71CDAEB1D003F8357 /* CustomTableCell.swift in Sources */,
+				BDCADD091CDAC64000488CB8 /* Health_Me.xcdatamodeld in Sources */,
+				BDB713511CEE4AA500E58219 /* SavedRemViewController.swift in Sources */,
+				BD71B6F11CDAD21A003F8357 /* WebViewController.swift in Sources */,
+				BDCADD011CDAC64000488CB8 /* AppDelegate.swift in Sources */,
+				BD71B6EB1CDAC78A003F8357 /* SideViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDCADD041CDAC64000488CB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCADD051CDAC64000488CB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDCADD0C1CDAC64000488CB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCADD0D1CDAC64000488CB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDCADD101CDAC64000488CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDCADD111CDAC64000488CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDCADD131CDAC64000488CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Health Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bennington-CS.Health-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDCADD141CDAC64000488CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Health Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bennington-CS.Health-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDCADCF81CDAC64000488CB8 /* Build configuration list for PBXProject "Health Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCADD101CDAC64000488CB8 /* Debug */,
+				BDCADD111CDAC64000488CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCADD121CDAC64000488CB8 /* Build configuration list for PBXNativeTarget "Health Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCADD131CDAC64000488CB8 /* Debug */,
+				BDCADD141CDAC64000488CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDCADD071CDAC64000488CB8 /* Health_Me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDCADD081CDAC64000488CB8 /* Health_Me.xcdatamodel */,
+			);
+			currentVersion = BDCADD081CDAC64000488CB8 /* Health_Me.xcdatamodel */;
+			path = Health_Me.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDCADCF51CDAC64000488CB8 /* Project object */;
+}
